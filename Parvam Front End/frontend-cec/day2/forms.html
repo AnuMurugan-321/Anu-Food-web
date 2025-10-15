@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(196, 255, 228);
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        form{
+            color:rgb(127, 255, 212);
+            background-color:rgba(29, 109, 170, 0.942);
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size:medium;
+            padding: 50px;
+            margin: 50px;
+        }
+        .hjg{
+            padding: 50px;
+            border: 2px solid sandybrown;
+            border-radius: 20px; 
+        }
+        .fgh{
+            padding-left: 50px;
+            border: 2px solid sandybrown;
+            border-radius: 20px;
+        }
+        .fgh{
+            padding-right: 50px;
+            border: 2px solid sandybrown;
+            border-radius: 20px;
+        }
+        .fgh{
+            padding: 50px;
+            border: 2px solid sandybrown;
+            border-radius: 20px;
+        }
+        .ijk{
+            padding: 50px;
+            border: 2px solid sandybrown;
+            border-radius: 20px;
+        }
+        .ijk{
+            padding: 50px;
+            border: 2px solid sandybrown;
+            border-radius: 20px;
+        }
+        .ijk{
+            padding: 50px;
+            border: 2px solid sandybrown;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+            <a href="./forms.html">forms</a>          
+            </li>
+            <li>
+                <a href="../Table.html">table</a>
+            </li>    
+        </ul>
+    </nav>
+    <h1 style="text-align:center;color:rgba(157, 0, 255, 0.96);background-color:rgba(217, 255, 205, 0.931);">Basic forms</h1>"
+    <h1>Basic form</h1>
+<form action="/submit"method="post">
+    <div class="hjg">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required/><br>
+    </div>
+    <div class="hjg">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="name" required/><br>
+    </div>
+    <div class="fgh">
+    <label for="male">Male:</label>
+    <input type="radio" id="male" name="gender" value="male"/>
+    </div>
+    <div class="fgh">
+    <label for="female">Female:</label>
+    <input type="radio" id="female" name="gender" value="female"/><br>
+    </div>
+    <div class="fgh">
+    <label for="password">password:</label>
+    <label class="pass" type="password" id="passwoed" name="password"/>
+    </div>
+    <div class="ijk">
+    <h3>Terms and Conditions</h3>
+        <input type="checkbox" name="terms" required />
+        I agree to the Terms and Conditions</label>
+        ><br /><br />
+    </div>   
+    <div class="ijk">
+    <label for="department">Department:</label>
+    <select id="department" name="department">
+        <option value="ISE">ISE</option>
+        <option value="CSE">CSE</option>
+        <option value="CIV">CIV</option>
+        <option value="ME">ME</option>
+        <option value="AIML">AIML</option>
+        ><br /><br />
+    </div>
+        <input 
+        type="password"
+        id="password" 
+        name="password" 
+        required
+        /><br /><br />
+    <div class="ijk">
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday" required/><br>
+    <textarea>Discription</textarea><br /><br />
+    </div>
+    <label for="video">upload video:</label>
+    <input type="file" id="video" name="video" accept="video"required/><br>
+    <label for="document">upload document:</label>
+    <input type="file" id="document" name="document" accept="document"required/><br>
+    <label for="pdf">upload pdf:</label>
+    <input type="file" id="pdf" name="pdf" accept="pdf"required/><br>
+    <label for="rating">upload rating:</label>
+    <input type="range" id="rating" name="rating" accept="rating"required/><br>
+    <label for="color">upload color:</label>
+    <input type="color" id="color" name="color" accept="color"required/><br>
+    <input type="submit" value="submit" />
+    <input type="reset" value="reset" />
+</form>
+</body>
+</html>
